@@ -1,0 +1,72 @@
+# Katharina Jacoby
+
+**Emergency Physician → ML/Software Builder (ethics‑first, advice‑only)**
+
+### 🩺 Headline
+
+Emergency physician building ML/LLM software (clinician-engineer). Building small, auditable tools for emergency care and primary care workflows. I ship local‑first apps (privacy by default), reproducible ML, and transparent governance.
+
+
+### 👩‍💻 About Me
+
+Emergency physician building ML/LLM software (clinician-engineer). I deliver small, local-first tools with audit trails (`FastAPI`, `SQLite`, `scikit-learn`) and value safety, bias awareness, and clear rollback paths more than cleverness.
+
+
+### 🛠️ Skills
+
+- **Languages:** Python • SQL • TypeScript • (learning) Rust, Go, R, Julia
+- **ML/DS:** scikit-learn • model evaluation (MAE/RMSE/AUC) • feature engineering • Hugging Face (T5) • experiment hygiene (seeds, CV, metrics)
+- **Backend/App:** FastAPI • REST • SQLite • local‑first design • PyInstaller packaging (Windows)
+- **LLM tooling:** Local models via Ollama • prompt/tool contracts • safety governors • logging/audit trails
+- **Ops/Quality:** Reproducible notebooks • smoke tests • SPC (Shewhart/EWMA) monitoring • governance checklists
+
+
+### 🚀 Selected Projects
+
+_Most of my projects are private. Feel free to [contact me](mailto:k.jacoby@posteo.de) for collaborations or more information!_
+
+- **ED Pipeline** — Activated UI Gate + MLP/CatBoost with SPC  
+  _Python notebooks • scikit-learn/PyTorch • FastAPI_  
+  - MLPGate emits advice-only suggestions with calibrated thresholds.
+  - Training: LogisticRegression → MLP (ReLU, dropout), 5xCV; AUPRC/AUROC/ECE reporting; CatBoost for tabular A/B.
+  - Monitoring: Shewhart/EWMA SPC replaces black-box AD; transparent review rules, no auto-actions.
+  - Governance: JSONL audit logs, fixed interfaces/config guards, smoke/preflight tests.
+  - Data: MIMIC-IV ED Demo (public, de‑identified).
+  - **Status:** Labels in progress; SPC complete; A/B MLP vs CatBoost next.
+
+- **ED Assistant** — Advice‑Only Workflow Helper  
+  _FastAPI • SQLite • Local LLM (Ollama) • DB tools_  
+  - Summarizes stays (triage, vitals, meds, diagnoses); local-only, emits JSONL audit logs.
+  - Governed by explicit advice-only contract; SPC for monitoring.
+  - **Status:** Core API/tools working; summary endpoint and tool-calling next.
+
+- **BVBChecker** — Local Rules App for Practices  
+  _Python/FastAPI → Windows .exe (PyInstaller)_  
+  - Checks Besonderer Verordnungsbedarf eligibility from ICD-10 (+age/sex) via JSON/CSV rules.
+  - Runs offline, no data stored, ships with docs and installer scripts.
+  - **Status:** Core rule engine/UI/Windows build done; ready for pilot.
+
+- **Medical T5 Mini** — Debugging‑Driven Fine‑Tuning  
+  _Hugging Face T5-small • DataCollator • beam search_  
+  - Solved “True-only” bug by isolating pipeline steps, task prefixing, and feature cleaning.
+  - Scaled dataset, trained ~40 epochs, clean outputs on held prompts.
+
+
+### 🧭 Values & Governance
+
+- **Advice-only by design:** No autonomous clinical actions.
+- **Local-first privacy:** Minimal data footprint.
+- **Reproducible:** Fixed seeds, pinned dependencies, smoke tests.
+- **Bias & risk awareness:** Limitations noted; SPC monitors drift; rollback plan.
+
+
+### 🌐 Links
+
+- Kaggle: [K.Jacoby](https://www.kaggle.com/)  
+- Email: k.jacoby@posteo.de
+
+
+### 🤝 What I’m Looking For
+
+I’d love to connect with people working on non-profit, open-source projects, especially those interested in building local ML/AI models, support systems for NGOs, or open healthcare solutions. 
+If you’re collaborating in this space or need a domain expert, let’s talk!
