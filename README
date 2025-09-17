@@ -2,11 +2,6 @@
 
 **Emergency Physician → ML/Software Builder (ethics‑first, advice‑only)**
 
-### 🩺 Headline
-
-Emergency physician building ML/LLM software (clinician-engineer). Building small, auditable tools for emergency care and primary care workflows. I ship local‑first apps (privacy by default), reproducible ML, and transparent governance.
-
-
 ### 👩‍💻 About Me
 
 Emergency physician building ML/LLM software (clinician-engineer). I deliver small, local-first tools with audit trails (`FastAPI`, `SQLite`, `scikit-learn`) and value safety, bias awareness, and clear rollback paths more than cleverness.
