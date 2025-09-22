@@ -1,67 +1,115 @@
-# Katharina Jacoby
+# Dr. med. Katharina Jacoby
+**Emergency Physician → Clinical Systems Engineer**
 
-**Emergency Physician → ML/Software Builder (ethics‑first, advice‑only)**
+### 👩‍⚕️💻 About Me
+I’m an **emergency physician** who builds **software and automation tools** to fix real-world clinical problems.
+As a **Clinical Systems Engineer**, I work at the intersection of **medicine and technical implementation**, focusing on:
+- **Small, auditable tools** (FastAPI, SQLite, scikit-learn) that **fit into existing workflows**.
+- **Safety, transparency, and rollback paths**—because **patient care always comes first**.
+- **Local-first design** (no cloud dependencies, no unnecessary data sharing).
+- **Advice-only systems**—**augmenting** clinical work, never replacing judgment.
 
-### 👩‍💻 About Me
+> *"I don’t build AI for healthcare. I build tools for healthcare professionals— where it adds real value."*
 
-Emergency physician building ML/LLM software (clinician-engineer). I deliver small, local-first tools with audit trails (`FastAPI`, `SQLite`, `scikit-learn`) and value safety, bias awareness, and clear rollback paths more than cleverness.
-
+---
 
 ### 🛠️ Skills
+**Languages:** Python • SQL • TypeScript
+**ML/DS:** scikit-learn • model evaluation (MAE/RMSE/AUC) • feature engineering • Hugging Face (T5) • experiment hygiene
+**Backend/App:** FastAPI • REST • SQLite • local-first design • PyInstaller packaging
+**Automation:** Local LLMs (Ollama) • rule-based systems • workflow optimization
+**Ops/Quality:** Reproducible notebooks • smoke tests • SPC monitoring • governance checklists
 
-- **Languages:** Python • SQL • TypeScript • (learning) Rust, Go, R, Julia
-- **ML/DS:** scikit-learn • model evaluation (MAE/RMSE/AUC) • feature engineering • Hugging Face (T5) • experiment hygiene (seeds, CV, metrics)
-- **Backend/App:** FastAPI • REST • SQLite • local‑first design • PyInstaller packaging (Windows)
-- **LLM tooling:** Local models via Ollama • prompt/tool contracts • safety governors • logging/audit trails
-- **Ops/Quality:** Reproducible notebooks • smoke tests • SPC (Shewhart/EWMA) monitoring • governance checklists
-
+---
 
 ### 🚀 Selected Projects
+*Some of my current projects are public—[contact me](mailto:k.jacoby@posteo.de) for collaborations or details!*
 
-_Most of my projects are private. Feel free to [contact me](mailto:k.jacoby@posteo.de) for collaborations or more information!_
+#### **1. ED Pipeline**
+**Activated UI Gate + MLP/CatBoost with SPC Monitoring**
+*Python • scikit-learn • FastAPI • MIMIC-IV (public, de-identified)*
+- MLP Gate emits **advice-only suggestions** with calibrated thresholds (τ).
+- **Training**: LogisticRegression → MLP (ReLU, dropout) → CatBoost A/B comparison.
+- **Monitoring**: Shewhart/EWMA SPC for performance tracking—**no auto-actions, just review prompts**.
+- **Status**: Labels in progress; SPC complete; A/B testing next.
 
-- **ED Pipeline** — Activated UI Gate + MLP/CatBoost with SPC  
-  _Python notebooks • scikit-learn/PyTorch • FastAPI_  
-  - MLPGate emits advice-only suggestions with calibrated thresholds.
-  - Training: LogisticRegression → MLP (ReLU, dropout), 5xCV; AUPRC/AUROC/ECE reporting; CatBoost for tabular A/B.
-  - Monitoring: Shewhart/EWMA SPC replaces black-box AD; transparent review rules, no auto-actions.
-  - Governance: JSONL audit logs, fixed interfaces/config guards, smoke/preflight tests.
-  - Data: MIMIC-IV ED Demo (public, de‑identified).
-  - **Status:** Labels in progress; SPC complete; A/B MLP vs CatBoost next.
+#### **2. ED Assistant**
+**Advice-Only Workflow Helper with Local LLM Integration**
+*FastAPI • SQLite • Python • Local Model Deployment*
+- **Decoupled architecture**: Prediction pipeline (MLP/CatBoost) and LLM assistant are **separate services**.
+- **Privacy**: No cloud, no data storage, **in-memory processing only**.
+- **Status**: Core pipeline functional; next: EHR integration (FHIR/JSON).
 
-- **ED Assistant** — Advice‑Only Workflow Helper  
-  _FastAPI • SQLite • Local LLM (Ollama) • DB tools_  
-  - Summarizes stays (triage, vitals, meds, diagnoses); local-only, emits JSONL audit logs.
-  - Governed by explicit advice-only contract; SPC for monitoring.
-  - **Status:** Core API/tools working; summary endpoint and tool-calling next.
+#### **3. Heilmittel Assistent/ BVBChecker**
+**Local Rules App for Practices**
+*Python/FastAPI → Windows .exe (PyInstaller)*
+- Checks **Besonderer Verordnungsbedarf** eligibility via ICD-10/JSON rules.
+- **Runs offline**, no data stored, ships with installer scripts.
+- **Status**: Core engine done; pilot testing next.
 
-- **BVBChecker** — Local Rules App for Practices  
-  _Python/FastAPI → Windows .exe (PyInstaller)_  
-  - Checks Besonderer Verordnungsbedarf eligibility from ICD-10 (+age/sex) via JSON/CSV rules.
-  - Runs offline, no data stored, ships with docs and installer scripts.
-  - **Status:** Core rule engine/UI/Windows build done; ready for pilot.
-
-- **Medical T5 Mini** — Debugging‑Driven Fine‑Tuning  
-  _Hugging Face T5-small • DataCollator • beam search_  
-  - Solved “True-only” bug by isolating pipeline steps, task prefixing, and feature cleaning.
-  - Scaled dataset, trained ~40 epochs, clean outputs on held prompts.
-
-
-### 🧭 Values & Governance
-
-- **Advice-only by design:** No autonomous clinical actions.
-- **Local-first privacy:** Minimal data footprint.
-- **Reproducible:** Fixed seeds, pinned dependencies, smoke tests.
-- **Bias & risk awareness:** Limitations noted; SPC monitors drift; rollback plan.
+#### **4. Medical T5 Mini**
+**Debugging-Driven Fine-Tuning**
+*Hugging Face T5-small • DataCollator • Beam Search*
+- Solved **"True"-only bug** via systematic isolation (task prefixing, pipeline cleaning).
+- **Lesson**: Debugging ML like a physician—**rule out causes one by one**.
+- **Status**: [Kaggle Notebook](https://www.kaggle.com/code/kjacoby/debugging-journey-t5-fine-tuning-true-bug)
 
 
+---
+
+### 🧭 What Is a Clinical Systems Engineer?
+I’ve started calling myself a **Clinical Systems Engineer** because neither "doctor" nor "engineer" alone captures what I do.
+
+A **Clinical Systems Engineer** is a **healthcare professional who**:
+1. **Identifies clinical inefficiencies** (e.g., "Why does documentation take 30% of my time?").
+2. **Designs and builds technical solutions** (e.g., local automation tools, monitoring dashboards).
+3. **Debugs systems like a physician**—methodically, with a focus on root causes.
+4. **Prioritizes safety, transparency, and simplicity** over "clever" algorithms.
+
+**Why this term?**
+- **"Clinical"** because I start with **real healthcare problems**.
+- **"Systems"** because I focus on **entire workflows**, not just models or apps.
+- **"Engineer"** because I **write code, design tools, and fix bugs**—not just theorize.
+
+> *"Most healthcare tech is built by engineers who don’t understand clinics—or clinicians who don’t build. I do both."*
+
+---
+
+### 🎓 Teaching & Methodology
+I teach **"Clinical Debugging"**—a methodology that applies **clinical problem-solving** to technical systems:
+1. **Start with the problem** (not the tool).
+2. **Differential diagnosis for bugs**: Is it a data issue? A model issue? A deployment issue?
+3. **No black boxes**: If we can’t explain how it works to our team, it’s not ready for production.
+4. **Test safely**: Shadow-mode deployments and A/B tests—just like clinical trials.
+
+**Workshops/Talks I Offer**:
+- *"Debugging AI Systems from a Physician’s Perspective"*
+- *"Building Healthcare Tools That Actually Work"*
+- *"Local-First Automation: Why the Cloud Isn’t Always the Answer"*
+
+---
+### 🤝 Collaboration & Consulting
+I’m interested in working with:
+- **Non-profits/NGOs** on **low-cost, high-impact** tech for global health.
+- **Healthcare startups** that want to design **tools with (not for) clinicians**.
+- **Research groups** working on **reproducible, ethical automation** in medicine.
+- **Tech teams** who want to learn how to build **for healthcare professionals**.
+
+**Let’s talk if you’re working on:**
+✅ Open-source healthcare automation
+✅ Local/offline tools for resource-limited settings
+✅ Clinician-friendly governance and safety
+
+---
 ### 🌐 Links
+- **Kaggle**: [K.Jacoby](https://www.kaggle.com/kjacoby)
+- **Hugging Face Discuss**: [@Katharina112](https://discuss.huggingface.co/u/katharina112/summary) *(for ML collaborations & fine-tuning discussions)*
+- **Email**: [k.jacoby@posteo.de](mailto:k.jacoby@posteo.de)
+- **GitHub**: [KatharinaJacoby] https://github.com/KatharinaJacoby*
 
-- Kaggle: [K.Jacoby](https://www.kaggle.com/)  
-- Email: k.jacoby@posteo.de
+---
+### 📢 Call to Action
+**Want to collaborate or just chat about clinical systems engineering?**
+[Email me](mailto:k.jacoby@posteo.de) or find me on [Kaggle](https://www.kaggle.com/code/kjacoby/).
 
-
-### 🤝 What I’m Looking For
-
-I’d love to connect with people working on non-profit, open-source projects, especially those interested in building local ML/AI models, support systems for NGOs, or open healthcare solutions. 
-If you’re collaborating in this space or need a domain expert, let’s talk!
+> *"The future of healthcare isn’t about replacing professionals with technology. It’s about giving them better tools—built together, for everyone."*
