@@ -70,7 +70,7 @@ I’m open to collaborating on:
 ---
 
 **Contact:**
-[Email](k.jacoby@posteo.de)
+[Email](mailto:k.jacoby@posteo.de)
 
 
 **Find my work:**
