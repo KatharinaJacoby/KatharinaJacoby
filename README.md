@@ -1,4 +1,3 @@
-# Dr. med. Katharina Jacoby
 **Emergency Physician → Clinical Systems Engineer**
 
 ---
