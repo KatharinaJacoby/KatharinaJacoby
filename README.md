@@ -67,6 +67,12 @@ I’m open to collaborating on:
 - Local/offline tools for resource-limited settings
 - Reproducible, ethical automation in medicine
 
+---
+
+**Contact:**
+[Email](k.jacoby@posteo.de)
+
+
 **Find my work:**
 - [GitHub](https://github.com/KatharinaJacoby)
 - [Kaggle](https://www.kaggle.com/kjacoby)
