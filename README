@@ -3,29 +3,25 @@
 
 ---
 ### 👩‍⚕️💻 About Me
-I’m an **emergency physician** who builds **software and automation tools** to fix real-world clinical problems.
-As a **Clinical Systems Engineer**, I work at the intersection of **medicine and technical implementation**, focusing on:
-- **Small, auditable tools** (FastAPI, SQLite, scikit-learn) that fit seamlessly into clinical workflows.
-- **Safety-first design**: Transparency, rollback paths, and **patient care as the top priority**.
-- **Local-first**: No cloud dependencies or unnecessary data sharing.
-- **Advice-only systems**: Augmenting (never replacing) clinical judgment.
+I’m an **emergency physician** who builds **software and automation tools** to address real-world clinical problems.
+As a **Clinical Systems Engineer**, I focus on:
+- **Small, auditable tools** (FastAPI, SQLite, scikit-learn) that fit into existing workflows.
+- **Safety, transparency, and rollback paths**—patient care always comes first.
+- **Local-first design** (no cloud dependencies, no unnecessary data sharing).
+- **Advice-only systems**—augmenting clinical work, never replacing judgment.
 
 > *"I don’t build AI for healthcare. I build tools for healthcare professionals—where it adds real value."*
 
 ---
-### 🚀 Selected Projects
-*Here are some of the tools I’ve built to address real clinical challenges:*
+### 🛠️ Projects
 #### Advice-Only Pipeline with Local LLM & SPC Monitoring
 *Python • scikit-learn • FastAPI • SQLite • MIMIC-IV*
 
-**Problem:**
-Emergency departments need **safe, transparent decision support**—not black-box automation or cloud dependencies.
-
-**Solution:**
-- **MLP/CatBoost models**: Trained via LogisticRegression → ReLU/MLP → CatBoost A/B testing for **calibrated suggestions** (threshold τ).
-- **SPC Monitoring**: Shewhart/EWMA for performance tracking (**review prompts only**, no auto-actions).
-- **Decoupled architecture**: Prediction pipeline + LLM assistant as **separate services** (FastAPI + SQLite).
-- **Privacy**: No cloud, no stored data—**in-memory processing only**.
+A **local-first, advice-only system** for emergency departments:
+- MLP/CatBoost models (LogisticRegression → ReLU/MLP → CatBoost A/B testing) for calibrated suggestions.
+- Shewhart/EWMA SPC for performance monitoring (review prompts only, no auto-actions).
+- Decoupled architecture: prediction pipeline + LLM assistant as separate services.
+- No cloud, no stored data—**in-memory processing only**.
 
 **Status:**
 SPC monitoring complete; A/B testing next.
@@ -33,76 +29,54 @@ Core pipeline functional; EHR integration (FHIR/JSON) in progress.
 
 ---
 #### Heilmittel Assistent / BVBChecker
-**Local Rules App for Practices**
 *Python/FastAPI → Windows .exe (PyInstaller)*
 
-- Checks **Besonderer Verordnungsbedarf** eligibility via ICD-10/JSON rules.
-- **Runs offline**, no data stored, ships with installer scripts.
-- **Status**: Core engine done; pilot testing next.
+A **local rules app** for ICD-10 eligibility checks:
+- Runs offline, no data stored, ships with installer scripts.
+- **Status:** Core engine done; pilot testing next.
 
 ---
 #### Medical T5 Mini
-**Debugging-Driven Fine-Tuning**
 *Hugging Face T5-small • DataCollator • Beam Search*
 
-- Solved **"True"-only bug** via systematic isolation (task prefixing, pipeline cleaning).
-- **Lesson**: Debugging ML like a physician—**rule out causes one by one**.
-- **Status**: [Kaggle Notebook](https://www.kaggle.com/code/kjacoby/debugging-journey-t5-fine-tuning-true-bug)
+Debugging-driven fine-tuning:
+- Solved a "True"-only bug via systematic isolation (task prefixing, pipeline cleaning).
+- **Lesson:** Debugging ML like a physician—rule out causes one by one.
+- **Notebook:** [Kaggle](https://www.kaggle.com/code/kjacoby/debugging-journey-t5-fine-tuning-true-bug)
 
 ---
-### 🧭 What Is a Clinical Systems Engineer?
-A **Clinical Systems Engineer** is a **healthcare professional who**:
-1. **Spots inefficiencies** in clinical workflows.
-2. **Builds practical tools** (e.g., automation, dashboards).
-3. **Debugs like a physician**—root cause first.
-4. **Prioritizes safety and simplicity** over complexity.
-
-**Why this term?**
-- **"Clinical"** because I start with **real healthcare problems**.
-- **"Systems"** because I focus on **entire workflows**, not just models or apps.
-- **"Engineer"** because I **write code, design tools, and fix bugs**—not just theorize.
+### 🧭 Clinical Systems Engineering
+I use the term **Clinical Systems Engineer** because:
+- **"Clinical"** means starting with real healthcare problems.
+- **"Systems"** means focusing on entire workflows, not just models or apps.
+- **"Engineer"** means writing code, designing tools, and fixing bugs.
 
 > *"Most healthcare tech is built by engineers who don’t understand clinics—or clinicians who don’t build. I do both."*
 
 ---
-### 🎓 Teaching & Methodology
-I teach **"Clinical Debugging"**—applying **medical problem-solving** to technical systems:
-1. Start with the **problem**, not the tool.
-2. **Diagnose bugs** like a clinician: Data? Model? Deployment?
-3. **No black boxes**: If we can’t explain it, it’s not production-ready.
-4. **Test safely**: Shadow deployments and A/B tests—like clinical trials.
-
-**Workshops/Talks I Offer**:
-- *"Debugging AI Systems from a Physician’s Perspective"*
-- *"Building Healthcare Tools That Actually Work"*
-- *"Local-First Automation: Why the Cloud Isn’t Always the Answer"*
+### 🎓 Methodology
+I apply **clinical problem-solving** to technical systems:
+1. Start with the problem, not the tool.
+2. Diagnose bugs like a clinician: data, model, or deployment?
+3. No black boxes—if we can’t explain it, it’s not ready.
+4. Test safely: shadow deployments and A/B tests, like clinical trials.
 
 ---
-### 🤝 Collaboration & Consulting
-I’m interested in working with:
-- **Non-profits/NGOs** on **low-cost, high-impact** tech for global health.
-- **Healthcare startups** that want to design **tools with (not for) clinicians**.
-- **Research groups** working on **reproducible, ethical automation** in medicine.
+### 🤝 Collaboration
+I’m open to collaborating on:
+- Open-source healthcare automation
+- Local/offline tools for resource-limited settings
+- Reproducible, ethical automation in medicine
 
-**Let’s talk if you’re working on:**
-✅ Open-source healthcare automation
-✅ Offline/local tools for low-resource settings
-✅ Clinician-centered design and governance
-
----
-### 🌐 Links
-- **Kaggle**: [K.Jacoby](https://www.kaggle.com/kjacoby)
-- **Hugging Face Discuss**: [@Katharina112](https://discuss.huggingface.co/u/katharina122/summary)
-- **GitHub**: [KatharinaJacoby](https://github.com/KatharinaJacoby)
+**Find my work:**
+- [GitHub](https://github.com/KatharinaJacoby)
+- [Kaggle](https://www.kaggle.com/kjacoby)
+- [Hugging Face](https://discuss.huggingface.co/u/katharina122/summary)
 
 ---
-### 🏆 Open Source & Community
-I contribute to open-source projects and love collaborating on tools that make a real difference.
-[![An image of @katharinajacoby's Holopin badges](https://holopin.me/katharinajacoby)](https://holopin.io/@katharinajacoby)
+### 🏆 Open Source
+I contribute to open-source projects that make a real difference.
+[![Holopin Badges](https://holopin.me/katharinajacoby)](https://holopin.io/@katharinajacoby)
 
 ---
-### 📢 Call to Action
-**Let’s build better tools for healthcare together.**
-[GitHub](https://github.com/KatharinaJacoby) • [Kaggle](https://www.kaggle.com/kjacoby) • [Email](mailto:k.jacoby@posteo.de)
-
 > *"The future of healthcare isn’t about replacing professionals with technology. It’s about giving them better tools—built together, for everyone."*
