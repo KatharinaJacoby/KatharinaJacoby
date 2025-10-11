@@ -1,70 +1,61 @@
 # Dr. med. Katharina Jacoby
 **Emergency Physician → Clinical Systems Engineer**
 
+---
 ### 👩‍⚕️💻 About Me
 I’m an **emergency physician** who builds **software and automation tools** to fix real-world clinical problems.
 As a **Clinical Systems Engineer**, I work at the intersection of **medicine and technical implementation**, focusing on:
-- **Small, auditable tools** (FastAPI, SQLite, scikit-learn) that **fit into existing workflows**.
-- **Safety, transparency, and rollback paths**—because **patient care always comes first**.
-- **Local-first design** (no cloud dependencies, no unnecessary data sharing).
-- **Advice-only systems**—**augmenting** clinical work, never replacing judgment.
+- **Small, auditable tools** (FastAPI, SQLite, scikit-learn) that fit seamlessly into clinical workflows.
+- **Safety-first design**: Transparency, rollback paths, and **patient care as the top priority**.
+- **Local-first**: No cloud dependencies or unnecessary data sharing.
+- **Advice-only systems**: Augmenting (never replacing) clinical judgment.
 
-> *"I don’t build AI for healthcare. I build tools for healthcare professionals— where it adds real value."*
-
----
-
-### 🛠️ Skills
-**Languages:** Python • SQL • TypeScript
-**ML/DS:** scikit-learn • model evaluation (MAE/RMSE/AUC) • feature engineering • Hugging Face (T5) • experiment hygiene
-**Backend/App:** FastAPI • REST • SQLite • local-first design • PyInstaller packaging
-**Automation:** Local LLMs (Ollama) • rule-based systems • workflow optimization
-**Ops/Quality:** Reproducible notebooks • smoke tests • SPC monitoring • governance checklists
+> *"I don’t build AI for healthcare. I build tools for healthcare professionals—where it adds real value."*
 
 ---
-
 ### 🚀 Selected Projects
-*Some of my current projects are public—[contact me](mailto:k.jacoby@posteo.de) for collaborations or details!*
+*Here are some of the tools I’ve built to address real clinical challenges:*
+#### Advice-Only Pipeline with Local LLM & SPC Monitoring
+*Python • scikit-learn • FastAPI • SQLite • MIMIC-IV*
 
-#### **1. ED Pipeline**
-**Activated UI Gate + MLP/CatBoost with SPC Monitoring**
-*Python • scikit-learn • FastAPI • MIMIC-IV (public, de-identified)*
-- MLP Gate emits **advice-only suggestions** with calibrated thresholds (τ).
-- **Training**: LogisticRegression → MLP (ReLU, dropout) → CatBoost A/B comparison.
-- **Monitoring**: Shewhart/EWMA SPC for performance tracking—**no auto-actions, just review prompts**.
-- **Status**: Labels in progress; SPC complete; A/B testing next.
+**Problem:**
+Emergency departments need **safe, transparent decision support**—not black-box automation or cloud dependencies.
 
-#### **2. ED Assistant**
-**Advice-Only Workflow Helper with Local LLM Integration**
-*FastAPI • SQLite • Python • Local Model Deployment*
-- **Decoupled architecture**: Prediction pipeline (MLP/CatBoost) and LLM assistant are **separate services**.
-- **Privacy**: No cloud, no data storage, **in-memory processing only**.
-- **Status**: Core pipeline functional; next: EHR integration (FHIR/JSON).
+**Solution:**
+- **MLP/CatBoost models**: Trained via LogisticRegression → ReLU/MLP → CatBoost A/B testing for **calibrated suggestions** (threshold τ).
+- **SPC Monitoring**: Shewhart/EWMA for performance tracking (**review prompts only**, no auto-actions).
+- **Decoupled architecture**: Prediction pipeline + LLM assistant as **separate services** (FastAPI + SQLite).
+- **Privacy**: No cloud, no stored data—**in-memory processing only**.
 
-#### **3. Heilmittel Assistent/ BVBChecker**
+**Status:**
+SPC monitoring complete; A/B testing next.
+Core pipeline functional; EHR integration (FHIR/JSON) in progress.
+
+---
+#### Heilmittel Assistent / BVBChecker
 **Local Rules App for Practices**
 *Python/FastAPI → Windows .exe (PyInstaller)*
+
 - Checks **Besonderer Verordnungsbedarf** eligibility via ICD-10/JSON rules.
 - **Runs offline**, no data stored, ships with installer scripts.
 - **Status**: Core engine done; pilot testing next.
 
-#### **4. Medical T5 Mini**
+---
+#### Medical T5 Mini
 **Debugging-Driven Fine-Tuning**
 *Hugging Face T5-small • DataCollator • Beam Search*
+
 - Solved **"True"-only bug** via systematic isolation (task prefixing, pipeline cleaning).
 - **Lesson**: Debugging ML like a physician—**rule out causes one by one**.
 - **Status**: [Kaggle Notebook](https://www.kaggle.com/code/kjacoby/debugging-journey-t5-fine-tuning-true-bug)
 
-
 ---
-
 ### 🧭 What Is a Clinical Systems Engineer?
-I’ve started calling myself a **Clinical Systems Engineer** because neither "doctor" nor "engineer" alone captures what I do.
-
 A **Clinical Systems Engineer** is a **healthcare professional who**:
-1. **Identifies clinical inefficiencies** (e.g., "Why does documentation take 30% of my time?").
-2. **Designs and builds technical solutions** (e.g., local automation tools, monitoring dashboards).
-3. **Debugs systems like a physician**—methodically, with a focus on root causes.
-4. **Prioritizes safety, transparency, and simplicity** over "clever" algorithms.
+1. **Spots inefficiencies** in clinical workflows.
+2. **Builds practical tools** (e.g., automation, dashboards).
+3. **Debugs like a physician**—root cause first.
+4. **Prioritizes safety and simplicity** over complexity.
 
 **Why this term?**
 - **"Clinical"** because I start with **real healthcare problems**.
@@ -74,13 +65,12 @@ A **Clinical Systems Engineer** is a **healthcare professional who**:
 > *"Most healthcare tech is built by engineers who don’t understand clinics—or clinicians who don’t build. I do both."*
 
 ---
-
 ### 🎓 Teaching & Methodology
-I teach **"Clinical Debugging"**—a methodology that applies **clinical problem-solving** to technical systems:
-1. **Start with the problem** (not the tool).
-2. **Differential diagnosis for bugs**: Is it a data issue? A model issue? A deployment issue?
-3. **No black boxes**: If we can’t explain how it works to our team, it’s not ready for production.
-4. **Test safely**: Shadow-mode deployments and A/B tests—just like clinical trials.
+I teach **"Clinical Debugging"**—applying **medical problem-solving** to technical systems:
+1. Start with the **problem**, not the tool.
+2. **Diagnose bugs** like a clinician: Data? Model? Deployment?
+3. **No black boxes**: If we can’t explain it, it’s not production-ready.
+4. **Test safely**: Shadow deployments and A/B tests—like clinical trials.
 
 **Workshops/Talks I Offer**:
 - *"Debugging AI Systems from a Physician’s Perspective"*
@@ -93,25 +83,26 @@ I’m interested in working with:
 - **Non-profits/NGOs** on **low-cost, high-impact** tech for global health.
 - **Healthcare startups** that want to design **tools with (not for) clinicians**.
 - **Research groups** working on **reproducible, ethical automation** in medicine.
-- **Tech teams** who want to learn how to build **for healthcare professionals**.
 
 **Let’s talk if you’re working on:**
 ✅ Open-source healthcare automation
-✅ Local/offline tools for resource-limited settings
-✅ Clinician-friendly governance and safety
+✅ Offline/local tools for low-resource settings
+✅ Clinician-centered design and governance
 
 ---
 ### 🌐 Links
 - **Kaggle**: [K.Jacoby](https://www.kaggle.com/kjacoby)
-- **Hugging Face Discuss**: [@Katharina112](https://discuss.huggingface.co/u/katharina112/summary) *(for ML collaborations & fine-tuning discussions)*
-- **GitHub**: [KatharinaJacoby] https://github.com/KatharinaJacoby*
+- **Hugging Face Discuss**: [@Katharina112](https://discuss.huggingface.co/u/katharina122/summary)
+- **GitHub**: [KatharinaJacoby](https://github.com/KatharinaJacoby)
 
 ---
 ### 🏆 Open Source & Community
-I contribute to open-source projects and love collaborating on tools that make a real difference. Here are some of my badges:
-[![An image of @katharinajacoby's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/katharinajacoby)](https://holopin.io/@katharinajacoby)
+I contribute to open-source projects and love collaborating on tools that make a real difference.
+[![An image of @katharinajacoby's Holopin badges](https://holopin.me/katharinajacoby)](https://holopin.io/@katharinajacoby)
+
 ---
 ### 📢 Call to Action
-**Want to collaborate or just chat about clinical systems engineering?**
-Find me on [Kaggle](https://www.kaggle.com/code/kjacoby) or [GitHub](https://github.com/KatharinaJacoby).
+**Let’s build better tools for healthcare together.**
+[GitHub](https://github.com/KatharinaJacoby) • [Kaggle](https://www.kaggle.com/kjacoby) • [Email](mailto:k.jacoby@posteo.de)
+
 > *"The future of healthcare isn’t about replacing professionals with technology. It’s about giving them better tools—built together, for everyone."*
