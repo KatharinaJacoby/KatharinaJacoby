@@ -16,15 +16,19 @@ As a **Clinical Systems Engineer**, I focus on:
 #### Advice-Only Pipeline with Local LLM & SPC Monitoring
 *Python • scikit-learn • FastAPI • SQLite • MIMIC-IV*
 
-A **local-first, advice-only system** for emergency departments:
-- MLP/CatBoost models (LogisticRegression → ReLU/MLP → CatBoost A/B testing) for calibrated suggestions.
-- Shewhart/EWMA SPC for performance monitoring (review prompts only, no auto-actions).
-- Decoupled architecture: prediction pipeline + LLM assistant as separate services.
-- No cloud, no stored data—**in-memory processing only**.
+- **CatBoost Models**: provides real-time, interpretable risk predictions to support clinician decision-making.
+- **SPC Monitoring**: Shewhart/EWMA for real-time performance tracking (review prompts only)
+- **Decoupled Architecture**: Prediction pipeline + separate LLM assistant service
+- **Local-Only**: No cloud, no stored data - in-memory processing with JSONL audit logs
+
+**Key Features**:
+✅ Advice-only outputs (human approval required)
+✅ Full audit trails for all system interactions
+✅ Configurable probability thresholds
+✅ Monthly SPC baseline updates
 
 **Status:**
-SPC monitoring complete; A/B testing next.
-Core pipeline functional; EHR integration (FHIR/JSON) in progress.
+Core pipeline functional
 
 ---
 #### Heilmittel Assistent / BVBChecker
