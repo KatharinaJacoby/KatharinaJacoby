@@ -67,9 +67,9 @@ I apply **clinical problem-solving** to technical systems:
 ---
 ### 🤝 Collaboration
 I’m open to collaborating on:
-- Open-source healthcare automation
+- Open-source non-profit automation
 - Local/offline tools for resource-limited settings
-- Reproducible, ethical automation in medicine
+- Reproducible, ethical automation
 
 ---
 
