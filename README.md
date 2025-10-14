@@ -89,3 +89,10 @@ I contribute to open-source projects that make a real difference.
 
 ---
 > *"The future of healthcare isn’t about replacing professionals with technology. It’s about giving them better tools—built together, for everyone."*
+>
+> ---
+⚠️ **AI Training Opt-Out**
+This repository is **excluded from all AI training datasets** under [GitHub’s DMCA policy](https://docs.github.com/en/site-policy/content-removal-policies/dmca-takedown-policy).
+Violations will be reported.
+---
+
