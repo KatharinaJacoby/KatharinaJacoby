@@ -45,7 +45,7 @@ A **local rules app** for ICD-10 eligibility checks:
 Debugging-driven fine-tuning:
 - Solved a "True"-only bug via systematic isolation (task prefixing, pipeline cleaning).
 - **Lesson:** Debugging ML like a physician—rule out causes one by one.
-- **Notebook:** [Kaggle](https://www.kaggle.com/code/kjacoby/debugging-journey-t5-fine-tuning-true-bug)
+- **Notebook:** [Kaggle](https://www.kaggle.com)
 
 ---
 ### 🧭 Clinical Systems Engineering
@@ -74,13 +74,13 @@ I’m open to collaborating on:
 ---
 
 **Contact:**
-[Email](mailto:k.jacoby@posteo.de)
+[Email](k.jacoby at posteo.de)
 
 
 **Find my work:**
-- [GitHub](https://github.com/KatharinaJacoby)
-- [Kaggle](https://www.kaggle.com/kjacoby)
-- [Hugging Face](https://discuss.huggingface.co/u/katharina122/summary)
+
+- [Kaggle](https://www.kaggle.com)
+- [Hugging Face](https://discuss.huggingface.co)
 
 ---
 ### 🏆 Open Source
