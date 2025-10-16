@@ -2,8 +2,10 @@
 
 ---
 ### 👩‍⚕️💻 About Me
-I’m an **emergency physician** who builds **software and automation tools** to address real-world clinical problems.
-As a **Clinical Systems Engineer**, I focus on:
+I’m an **emergency physician** who builds **software and automation tools**
+
+I fix things. Sometimes with code. Sometimes with adrenaline. I focus on:
+
 - **Small, auditable tools** (FastAPI, SQLite, scikit-learn) that fit into existing workflows.
 - **Safety, transparency, and rollback paths**—patient care always comes first.
 - **Local-first design** (no cloud dependencies, no unnecessary data sharing).
