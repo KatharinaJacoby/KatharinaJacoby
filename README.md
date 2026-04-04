@@ -1,7 +1,7 @@
 **Emergency Physician → Clinical Systems Engineer**
 
 ---
-### 👩‍⚕️💻 About Me
+### About Me
 I’m an **emergency physician** who builds **software and automation tools**
 
 I fix things. Sometimes with code. Sometimes with adrenaline. I focus on:
@@ -14,7 +14,7 @@ I fix things. Sometimes with code. Sometimes with adrenaline. I focus on:
 > *"I don’t build AI for healthcare. I build tools for healthcare professionals—where it adds real value."*
 
 ---
-### 🛠️ Projects
+### Projects
 #### Advice-Only Pipeline with Local LLM & SPC Monitoring
 *Python • scikit-learn • FastAPI • SQLite • MIMIC-IV*
 
@@ -47,10 +47,9 @@ A **local rules app** for ICD-10 eligibility checks:
 Debugging-driven fine-tuning:
 - Solved a "True"-only bug via systematic isolation (task prefixing, pipeline cleaning).
 - **Lesson:** Debugging ML like a physician—rule out causes one by one.
-- **Notebook:** [Kaggle](https://www.kaggle.com)
 
 ---
-### 🧭 Clinical Systems Engineering
+### Clinical Systems Engineering
 I use the term **Clinical Systems Engineer** because:
 - **"Clinical"** means starting with real healthcare problems.
 - **"Systems"** means focusing on entire workflows, not just models or apps.
@@ -59,7 +58,13 @@ I use the term **Clinical Systems Engineer** because:
 > *"Most healthcare tech is built by engineers who don’t understand clinics—or clinicians who don’t build. I do both."*
 
 ---
-### 🎓 Methodology
+## Pattern Recognition in Discrete Twisted Lattices
+*Numerical study of finite-size effects in non-orientable surfaces.*
+- **Observation:** The system exhibits a distinct transition from finite-size instability to a stable plateau, where the critical curvature deviates from continuous theory by a **constant, topology-dependent amount**.
+- **Note:** Raw data and simulation code are available upon request for scientific collaboration.
+
+---
+### Methodology
 I apply **clinical problem-solving** to technical systems:
 1. Start with the problem, not the tool.
 2. Diagnose bugs like a clinician: data, model, or deployment?
@@ -93,7 +98,7 @@ I contribute to open-source projects that make a real difference.
 > *"The future of healthcare isn’t about replacing professionals with technology. It’s about giving them better tools—built together, for everyone."*
 >
 > ---
-⚠️ **AI Training Opt-Out**
+⚠️ AI Training Opt-Out
 This repository is **excluded from all AI training datasets** under [GitHub’s DMCA policy](https://docs.github.com/en/site-policy/content-removal-policies/dmca-takedown-policy).
 Violations will be reported.
 ---
