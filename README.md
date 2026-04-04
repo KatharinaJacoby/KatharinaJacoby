@@ -58,7 +58,7 @@ I use the term **Clinical Systems Engineer** because:
 > *"Most healthcare tech is built by engineers who don’t understand clinics—or clinicians who don’t build. I do both."*
 
 ---
-## Pattern Recognition in Discrete Twisted Lattices
+#### Pattern Recognition in Discrete Twisted Lattices
 *Numerical study of finite-size effects in non-orientable surfaces.*
 - **Observation:** The system exhibits a distinct transition from finite-size instability to a stable plateau, where the critical curvature deviates from continuous theory by a **constant, topology-dependent amount**.
 - **Note:** Raw data and simulation code are available upon request for scientific collaboration.
