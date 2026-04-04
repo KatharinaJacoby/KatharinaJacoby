@@ -58,6 +58,11 @@ I use the term **Clinical Systems Engineer** because:
 > *"Most healthcare tech is built by engineers who don’t understand clinics—or clinicians who don’t build. I do both."*
 
 ---
+#### Flattening the Four Unknowns: How Western Translation Erased the Dimension in Zhu Shijie's Mathematical Masterpiece
+*Philological critique of translation erasure in classical Chinese algebra.*
+- **Argument:** The standard "Jade Mirror" translation obscures the rigorous "dimension" and "critique" in Zhu Shijie's 14th-century work.
+
+---
 #### Pattern Recognition in Discrete Twisted Lattices
 *Numerical study of finite-size effects in non-orientable surfaces.*
 - **Observation:** The system exhibits a distinct transition from finite-size instability to a stable plateau, where the critical curvature deviates from continuous theory by a **constant, topology-dependent amount**.
