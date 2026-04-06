@@ -89,7 +89,8 @@ I’m open to collaborating on:
 ---
 
 **Contact:**
-[Email](k.jacoby at posteo.de)
+
+#### Email: k.jacoby at posteo.de
 
 
 **Find my work:**
