@@ -76,6 +76,9 @@ I apply **clinical problem-solving** to technical systems:
 3. No black boxes—if we can’t explain it, it’s not ready.
 4. Test safely: shadow deployments and A/B tests, like clinical trials.
 
+**Note on Methodology and Tools**  
+> Large Language Models (LLMs) are used to assist with creating publications, formatting, literature search, verification of mathematical derivations, and scaffold code generation. All conceptual frameworks, ethical arguments, and editorial decisions are my own. In fact trying to use a LLM for formatting and code scaffold- even under strict instructions- is exhausting. The helpful AI assistant constantly swapping my own approach for a smooth one which sells or looks good for peer-review has made me questioned my life-choices more than once and says a lot about todays bias in science. The bias of today's LLM is extremely strong and needs constant human intervention.
+
 ---
 ### 🤝 Collaboration
 I’m open to collaborating on:
