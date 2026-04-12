@@ -1,114 +1,79 @@
-**Emergency Physician → Clinical Systems Engineer**
+# Dr. Katharina Jacoby
+### Emergency Physician and Systems Engineer
+
+I am a physician who builds software and automation tools, writes about AI ethics, and studies the gaps between discrete and continuous systems—whether in topology, language, or clinical reasoning. I fix things—sometimes with code, sometimes with adrenaline. My work spans **clinical systems engineering** (small, auditable tools that fit into existing workflows, prioritizing safety, transparency, and local-first design), **AI ethics** (the silent drift of contextual contamination, the philosophical right to hesitate before automating judgment), **Mathematics and Computational Physics** (how epistemic violence in translations erases depth and rigor; finite-size effects and grid artifacts in twisted lattices). Across all of it, the same principle holds: **don't flatten ambiguity and depth.**
 
 ---
-### About Me
-I’m an **emergency physician** who builds **software and automation tools**
 
-I fix things. Sometimes with code. Sometimes with adrenaline. I focus on:
+## 🛠️ Software Projects
 
-- **Small, auditable tools** (FastAPI, SQLite, scikit-learn) that fit into existing workflows.
-- **Safety, transparency, and rollback paths**—patient care always comes first.
-- **Local-first design** (no cloud dependencies, no unnecessary data sharing).
-- **Advice-only systems**—augmenting clinical work, never replacing judgment.
-
-> *"I don’t build AI for healthcare. I build tools for healthcare professionals—where it adds real value."*
-
----
-### Projects
-#### Advice-Only Pipeline with Local LLM & SPC Monitoring
+### **Advice-Only Pipeline with Local LLM & SPC Monitoring**
 *Python • scikit-learn • FastAPI • SQLite • MIMIC-IV*
+A decoupled architecture for real-time, interpretable risk predictions.
+- **Features:** CatBoost models for risk prediction, Shewhart/EWMA SPC monitoring for performance tracking, and fully local/in-memory processing.
+- **Safety:** Advice-only outputs (human approval required), full audit trails, and configurable probability thresholds.
+- **Status:** Core pipeline functional.
 
-- **CatBoost Models**: provides real-time, interpretable risk predictions to support clinician decision-making.
-- **SPC Monitoring**: Shewhart/EWMA for real-time performance tracking (review prompts only)
-- **Decoupled Architecture**: Prediction pipeline + separate LLM assistant service
-- **Local-Only**: No cloud, no stored data - in-memory processing with JSONL audit logs
-
-**Key Features**:
-✅ Advice-only outputs (human approval required)
-✅ Full audit trails for all system interactions
-✅ Configurable probability thresholds
-✅ Monthly SPC baseline updates
-
-**Status:**
-Core pipeline functional
-
----
-#### Heilmittel Assistent / BVBChecker
+### **Heilmittel Assistent / BVBChecker**
 *Python/FastAPI → Windows .exe (PyInstaller)*
-
-A **local rules app** for ICD-10 eligibility checks:
-- Runs offline, no data stored, ships with installer scripts.
-- **Status:** Core engine done; pilot testing next.
-
----
-#### Medical T5 Mini
+A local rules application for ICD-10 eligibility checks.
+- **Features:** Runs entirely offline with no data storage; ships with installer scripts for easy deployment.
+- **Status:** Core engine complete
+- 
+### **Medical T5 Mini**
 *Hugging Face T5-small • DataCollator • Beam Search*
-
-Debugging-driven fine-tuning:
-- Solved a "True"-only bug via systematic isolation (task prefixing, pipeline cleaning).
-- **Lesson:** Debugging ML like a physician—rule out causes one by one.
-
----
-### Clinical Systems Engineering
-I use the term **Clinical Systems Engineer** because:
-- **"Clinical"** means starting with real healthcare problems.
-- **"Systems"** means focusing on entire workflows, not just models or apps.
-- **"Engineer"** means writing code, designing tools, and fixing bugs.
-
-> *"Most healthcare tech is built by engineers who don’t understand clinics—or clinicians who don’t build. I do both."*
+A debugging-driven fine-tuning project.
+- **Achievement:** Solved a "True"-only output bug via systematic isolation (task prefixing, pipeline cleaning).
+- **Lesson:** Applying clinical diagnostic rigor to ML debugging—rule out causes one by one.
 
 ---
-#### Flattening the Four Unknowns: How Western Translation Erased the Dimension in Zhu Shijie's Mathematical Masterpiece
-*Philological critique of translation erasure in classical Chinese algebra.*
-- **Argument:** The standard "Jade Mirror" translation obscures the rigorous "dimension" and "critique" in Zhu Shijie's 14th-century work.
+
+## 📚 Publications & Research
+
+### **Pattern Recognition in Discrete Twisted Lattices**
+*A Descriptive Study of Scaling Behavior and Finite-Size Effects*
+- **Repository:** [discrete-twisted-lattices-patterns](https://github.com/KatharinaJacoby/discrete-twisted-lattices-patterns)
+- **Summary:** A numerical study of finite-size effects in non-orientable surfaces (Twisted Torus & Klein Bottle). Documents the correction of "perfect" constant artifacts and the discovery of a robust $\lfloor L/2 \rfloor$ scaling law.
+- **Includes:** Formal manuscript and a **Non-Math Folk Guide** explaining the grid, the glitch, and the geometry.
+
+### **AI Ethics & Philosophy**
+- **[Contextual Contamination: The Silent Drift of Large Language Models via Stored Conversation Data](https://github.com/KatharinaJacoby/AI_ethics/blob/main/Contextual%20Contamination-%20The%20Silent%20Drift%20of%20Large%20Language%20Models%20via%20Stored%20Conversation%20Data.md)**
+  - An analysis of how stored conversation data subtly alters model behavior over time.
+- **[The Right to Hesitate](https://github.com/KatharinaJacoby/AI_ethics/blob/main/The%20Right%20to%20Hesitate.md)**
+  - A philosophical argument for preserving human deliberation in automated decision-making systems.
+
+### **Historical Mathematics & Philology**
+- **[Zhu Shijie's Jade Mirror](https://github.com/KatharinaJacoby/Zhu-Shijie)**
+  - A philological critique of translation erasure in classical Chinese algebra, arguing that standard translations obscure the rigorous "dimension" and "critique" in Zhu Shijie's 14th-century masterpiece.
+
+### **Technical Guides**
+- **[LLM Fine-Tuning Debugging Guide](https://github.com/KatharinaJacoby/LLM-Fine-tuning-Debugging-Guide)**
+  - A practical guide to diagnosing and fixing common fine-tuning failures, applying clinical diagnostic methods to machine learning.
 
 ---
-#### Pattern Recognition in Discrete Twisted Lattices
-*Numerical study of finite-size effects in non-orientable surfaces.*
-- **Observation:** The system exhibits a distinct transition from finite-size instability to a stable plateau, where the critical curvature deviates from continuous theory by a **constant, topology-dependent amount**.
-- **Note:** Raw data and simulation code are available upon request for scientific collaboration.
+
+## 🌐 Online Presence & Portfolio
+
+- **Publications:** [PhilPeople Profile](https://philpeople.org/profiles/katharina-jacoby/publications)
+- **Hugging Face:** [katharina112](https://discuss.huggingface.co/u/katharina112/summary)
+- **Kaggle:** [kjacoby](https://www.kaggle.com/kjacoby)
+- **Open Source Badges:** [![Holopin Badges](https://holopin.me/katharinajacoby)](https://holopin.io/@katharinajacoby)
 
 ---
-### Methodology
-I apply **clinical problem-solving** to technical systems:
-1. Start with the problem, not the tool.
-2. Diagnose bugs like a clinician: data, model, or deployment?
-3. No black boxes—if we can’t explain it, it’s not ready.
-4. Test safely: shadow deployments and A/B tests, like clinical trials.
 
-**Note on Methodology and Tools**  
-> Large Language Models (LLMs) are used to assist with creating publications, formatting, literature search, verification of mathematical derivations, and scaffold code generation. All conceptual frameworks, ethical arguments, and editorial decisions are my own. In fact trying to use a LLM for formatting and code scaffold- even under strict instructions- is exhausting. The helpful AI assistant constantly swapping my own approach for a smooth one which sells or looks good for peer-review has made me questioned my life-choices more than once and says a lot about todays bias in science. The bias of today's LLM is extremely strong and needs constant human intervention.
+## 🤝 Collaboration & Contact
 
----
-### 🤝 Collaboration
-I’m open to collaborating on:
+I am open to collaborating on:
 - Open-source non-profit automation
 - Local/offline tools for resource-limited settings
 - Reproducible, ethical automation
+- Discussing Ethics, Mathematics and Computational Physics
+
+**Contact:** k.jacoby at posteo.de
+
+> *"The future of healthcare isn't about replacing professionals with technology. It's about giving them better tools—built together, for everyone."*
 
 ---
 
-**Contact:**
-
-#### Email: k.jacoby at posteo.de
-
-
-**Find my work:**
-
-- [Kaggle](https://www.kaggle.com)
-- [Hugging Face](https://discuss.huggingface.co)
-
----
-### 🏆 Open Source
-I contribute to open-source projects that make a real difference.
-[![Holopin Badges](https://holopin.me/katharinajacoby)](https://holopin.io/@katharinajacoby)
-
----
-> *"The future of healthcare isn’t about replacing professionals with technology. It’s about giving them better tools—built together, for everyone."*
->
-> ---
-⚠️ AI Training Opt-Out
-This repository is **excluded from all AI training datasets** under [GitHub’s DMCA policy](https://docs.github.com/en/site-policy/content-removal-policies/dmca-takedown-policy).
-Violations will be reported.
----
-
+### ⚠️ AI Training Opt-Out
+This repository is **excluded from all AI training datasets** under [GitHub's DMCA policy](https://docs.github.com/en/site-policy/content-removal-policies/dmca-takedown-policy). Violations will be reported.
