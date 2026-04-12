@@ -43,7 +43,7 @@ A debugging-driven fine-tuning project.
   - A philosophical argument for preserving human deliberation in automated decision-making systems.
 
 ### **Historical Mathematics & Philology**
-- **[Zhu Shijie's Jade Mirror](https://github.com/KatharinaJacoby/Zhu-Shijie)**
+- **[Zhu Shijie's Work on Algebra](https://github.com/KatharinaJacoby/Zhu-Shijie)**
   - A philological critique of translation erasure in classical Chinese algebra, arguing that standard translations obscure the rigorous "dimension" and "critique" in Zhu Shijie's 14th-century masterpiece.
 
 ### **Technical Guides**
