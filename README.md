@@ -7,10 +7,10 @@ I am a physician who builds software and automation tools, writes about AI ethic
 
 ## 🛠️ Software Projects
 
-### **Advice-Only Pipeline with Local LLM & SPC Monitoring**
+### **Advice-Only Pipeline with Local LLM **
 *Python • scikit-learn • FastAPI • SQLite • MIMIC-IV*
 A decoupled architecture for real-time, interpretable risk predictions.
-- **Features:** CatBoost models for risk prediction, Shewhart/EWMA SPC monitoring for performance tracking, and fully local/in-memory processing.
+- **Features:** CatBoost models for risk prediction, and fully local/in-memory processing.
 - **Safety:** Advice-only outputs (human approval required), full audit trails, and configurable probability thresholds.
 - **Status:** Core pipeline functional.
 
@@ -22,7 +22,7 @@ A local rules application for ICD-10 eligibility checks.
 - 
 ### **Medical T5 Mini**
 *Hugging Face T5-small • DataCollator • Beam Search*
-A debugging-driven fine-tuning project.
+A debugging-driven fine-tuning project for educational purposes.
 - **Achievement:** Solved a "True"-only output bug via systematic isolation (task prefixing, pipeline cleaning).
 - **Lesson:** Applying clinical diagnostic rigor to ML debugging—rule out causes one by one.
 
