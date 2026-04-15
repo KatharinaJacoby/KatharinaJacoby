@@ -3,6 +3,8 @@
 
 I am a physician who builds software and automation tools, writes about AI ethics, and studies the gaps between discrete and continuous systems—whether in topology, language, or clinical reasoning. I fix things—sometimes with code, sometimes with adrenaline. My work spans **clinical systems engineering** (small, auditable tools that fit into existing workflows, prioritizing safety, transparency, and local-first design), **AI ethics** (the silent drift of contextual contamination, the philosophical right to hesitate before automating judgment), **Mathematics and Computational Physics** (how epistemic violence in translations erases depth and rigor; finite-size effects and grid artifacts in twisted lattices). Across all of it, the same principle holds: **don't flatten ambiguity and depth.**
 
+> **Note on Methodology and Tools**  
+> My work is assisted by Large Language Models (LLMs). They are used to assist with creating texts, formatting, literature search, verification of mathematical derivations, and (scaffold) code generation. All conceptual frameworks, ethical arguments, and editorial decisions are my own. In fact trying to use a LLM for text generation and code scaffold- even under strict instructions- is exhausting. The helpful AI assistant constantly swapping my non-binary approach to a smooth binary one which sells or looks good for peer-review has made me questioned my life-choices more than once and says a lot about todays bias in research. The bias of today's LLM is extremely strong and needs constant human intervention to avoid drift.
 ---
 
 ## 🛠️ Software Projects
