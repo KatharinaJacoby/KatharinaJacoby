@@ -9,7 +9,7 @@ I am a physician who builds software and automation tools, writes about AI ethic
 
 ## 🛠️ Software Projects
 
-### **Advice-Only Pipeline with Local LLM **
+### **Advice-Only Pipeline with Local LLM**
 *Python • scikit-learn • FastAPI • SQLite • MIMIC-IV*
 A decoupled architecture for real-time, interpretable risk predictions.
 - **Features:** CatBoost models for risk prediction, and fully local/in-memory processing.
@@ -21,13 +21,14 @@ A decoupled architecture for real-time, interpretable risk predictions.
 A local rules application for ICD-10 eligibility checks.
 - **Features:** Runs entirely offline with no data storage; ships with installer scripts for easy deployment.
 - **Status:** Core engine complete
-- 
-### **Medical T5 Mini**
-*Hugging Face T5-small • DataCollator • Beam Search*
-A debugging-driven fine-tuning project for educational purposes.
-- **Achievement:** Solved a "True"-only output bug via systematic isolation (task prefixing, pipeline cleaning).
-- **Lesson:** Applying clinical diagnostic rigor to ML debugging—rule out causes one by one.
 
+### **Medical T5 Mini** (for educational purposes only, not for real-life medical diagnosis)
+*Hugging Face T5-small • DataCollator • Beam Search*
+- **[LLM Fine-Tuning Debugging Guide](https://github.com/KatharinaJacoby/LLM-Fine-tuning-Debugging-Guide)**
+  - A practical guide to diagnosing and fixing common fine-tuning failures, applying clinical diagnostic methods to machine learning.
+
+
+> *"The future of healthcare isn't about replacing professionals with technology. It's about giving them better tools—built together, for everyone."*
 ---
 
 ## 📚 Publications & Research
@@ -35,7 +36,7 @@ A debugging-driven fine-tuning project for educational purposes.
 ### **Pattern Recognition in Discrete Twisted Lattices**
 *A Descriptive Study of Scaling Behavior and Finite-Size Effects*
 - **Repository:** [discrete-twisted-lattices-patterns](https://github.com/KatharinaJacoby/discrete-twisted-lattices-patterns)
-- **Summary:** A numerical study of finite-size effects in non-orientable surfaces (Twisted Torus & Klein Bottle). Documents the correction of "perfect" constant artifacts and the discovery of a robust $\lfloor L/2 \rfloor$ scaling law.
+- **Summary:** A numerical study of finite-size effects in non-orientable surfaces (Twisted Torus & Klein Bottle). Documents the debugging of robust patterns and a "perfect" constant in simulations. 
 - **Includes:** Formal manuscript and a **Non-Math Folk Guide** explaining the grid, the glitch, and the geometry.
 
 ### **AI Ethics & Philosophy**
@@ -47,10 +48,6 @@ A debugging-driven fine-tuning project for educational purposes.
 ### **Historical Mathematics & Philology**
 - **[Zhu Shijie's Work on Algebra](https://github.com/KatharinaJacoby/Zhu-Shijie)**
   - A philological critique of translation erasure in classical Chinese algebra, arguing that standard translations obscure the rigorous "dimension" and "critique" in Zhu Shijie's 14th-century masterpiece.
-
-### **Technical Guides**
-- **[LLM Fine-Tuning Debugging Guide](https://github.com/KatharinaJacoby/LLM-Fine-tuning-Debugging-Guide)**
-  - A practical guide to diagnosing and fixing common fine-tuning failures, applying clinical diagnostic methods to machine learning.
 
 ---
 
@@ -72,8 +69,6 @@ I am open to collaborating on:
 - Discussing Ethics, Mathematics and Computational Physics
 
 **Contact:** k.jacoby at posteo.de
-
-> *"The future of healthcare isn't about replacing professionals with technology. It's about giving them better tools—built together, for everyone."*
 
 ---
 
