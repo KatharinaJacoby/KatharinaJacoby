@@ -1,7 +1,9 @@
-# Dr. Katharina Jacoby
-### Emergency Physician and Systems Engineer
+## Dr. Katharina Jacoby- Emergency Physician and Systems Engineer
 
 I build software and automation tools, write about AI ethics, and study the gaps between discrete and continuous systems—whether in topology, language, or clinical reasoning. I fix things—sometimes with code, sometimes with adrenaline. My work spans **Systems Engineering**, **AI ethics**, **Mathematics and Computational Physics**. Studying how our tools (whether grids, translations, or AI models) actively shape the reality we perceive, often in ways that hide power dynamics or mathematical truths. 
+
+### Thanks on the massive engagement with my repos! You have cloned over 600 times my **Pattern Recognition in Discrete Twisted Lattices Repository** in the last 14 days. Big shout out to the community! ✊🏽
+
 
 > **Note on Methodology and Tools**  
 > My work is assisted by Large Language Models (LLMs). They are used to assist with creating texts, formatting, literature search, verification of mathematical derivations, and (scaffold) code generation. All conceptual frameworks, ethical arguments, and editorial decisions are my own. In fact trying to use a LLM - even under strict instructions- is exhausting. The helpful AI assistant constantly swapping my non-binary approach to a smooth binary one which sells or looks good for peer-review has made me questioned my life-choices more than once and says a lot about todays bias in research. Colaborating with LLM needs constant human intervention to avoid drift.
