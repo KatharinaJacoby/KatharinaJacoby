@@ -2,7 +2,7 @@
 
 I build software and automation tools, write about AI ethics, and study the gaps between discrete and continuous systems—whether in topology, language, or clinical reasoning. I fix things—sometimes with code, sometimes with adrenaline. My work spans **Systems Engineering**, **AI ethics**, **Mathematics and Computational Physics**. Studying how our tools (whether grids, translations, or AI models) actively shape the reality we perceive, often in ways that hide power dynamics or mathematical truths. 
 
-### Thanks on the massive engagement with my repos! You have cloned my **Pattern Recognition in Discrete Twisted Lattices Repository** alone over 600 times in the last 14 days. Big shout out to the community! ✊🏽
+### In just 14 days, the Pattern Recognition in Discrete Twisted Lattices repo alone has received over 300 unique clones. Thanks on the massive engagement with my repos! ✊🏽
 
 
 > **Note on Methodology and Tools**  
