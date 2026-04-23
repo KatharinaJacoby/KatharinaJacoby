@@ -13,9 +13,7 @@ I build software and automation tools, write about AI ethics, and study the gaps
 
 *   **Advice-Only Pipeline:** Local, interpretable risk prediction (CatBoost, FastAPI, SQLite). Human-in-the-loop safety.
 *   **Heilmittel Assistent:** Offline ICD-10 eligibility checker (Python/PyInstaller). No data storage.
-*   **Medical T5 Mini:** Educational guide on fine-tuning failures (applied clinical diagnostics to ML).
-- **[LLM Fine-Tuning Debugging Guide](https://github.com/KatharinaJacoby/LLM-Fine-tuning-Debugging-Guide)**
-  - A practical guide to diagnosing and fixing common fine-tuning failures, applying clinical diagnostic methods to machine learning.
+*   **Medical T5 Mini:** Educational **[LLM Fine-Tuning Debugging Guide](https://github.com/KatharinaJacoby/LLM-Fine-tuning-Debugging-Guide)** A practical guide to diagnosing and fixing common fine-tuning failures, applying clinical diagnostic methods to machine learning.
 
 > *"The future of healthcare isn't about replacing professionals with technology. It's about giving them better tools—built together, for everyone."*
 ---
