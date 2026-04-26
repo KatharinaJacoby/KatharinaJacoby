@@ -2,7 +2,7 @@
 
 I build software and automation tools, write about AI ethics, and study the gaps between discrete and continuous systems—whether in topology, language, or clinical reasoning. I fix things—sometimes with code, sometimes with adrenaline. My work spans **Systems Engineering**, **AI ethics**, **Mathematics and Computational Physics**. Studying how our tools (whether grids, translations, or AI models) actively shape the reality we perceive, often in ways that hide power dynamics or mathematical truths. 
 
-### In just 14 days, the Pattern Recognition in Discrete Twisted Lattices repo alone has received over 300 unique clones. Thanks on the massive engagement with my repos! ✊🏽
+## In just 14 days, the Pattern Recognition in Discrete Twisted Lattices repo alone has received over 300 unique clones. Thanks on the massive engagement with my repos! ✊🏽
 
 
 > **Note on Methodology and Tools**  
@@ -22,7 +22,7 @@ I build software and automation tools, write about AI ethics, and study the gaps
 
 ### **Pattern Recognition in Discrete Twisted Lattices**
 *A Descriptive Study of Scaling Behavior and Finite-Size Effects*
-- **Repository:** [discrete-twisted-lattices-patterns](https://github.com/KatharinaJacoby/discrete-twisted-lattices-patterns)
+- **Repository:** **[discrete-twisted-lattices-patterns]**(https://github.com/KatharinaJacoby/discrete-twisted-lattices-patterns)
 - **Summary:** A numerical study of finite-size effects in non-orientable surfaces (Twisted Torus & Klein Bottle). Documents the debugging of robust patterns and a "perfect" constant in simulations. 
 - **Includes:** Formal manuscript and a **Non-Math Folk Guide** explaining the grid, the glitch, and the geometry.
 
