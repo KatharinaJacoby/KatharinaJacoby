@@ -15,15 +15,25 @@ I build software and automation tools, write about AI ethics, and study the gaps
 > *"The future of healthcare isn't about replacing professionals with technology. It's about giving them better tools—built together, for everyone."*
 ---
 
-### **AI Ethics & Philosophy**
+### **Mathematics and Computation**
+
+- **[Pattern recognition in discrete twisted lattices](https://github.com/KatharinaJacoby/discrete-twisted-lattices-patterns)**
+  - A Descriptive Study of Scaling Behavior and Finite-Size Effects and how our tools shape the outcome. Repo includes data, code and discussion.
+- **[A Non-Technical Companion Guide: Understanding the Grid, the Glitch, and the Geometry](https://github.com/KatharinaJacoby/discrete-twisted-lattices-patterns](https://github.com/KatharinaJacoby/discrete-twisted-lattices-patterns/blob/main/Non-Tech%20Companion%20Guide%3A%20Understanding%20the%20Grid%2C%20the%20Glitch%2C%20and%20the%20Geometry.md))**
+ - This companion guide to "Pattern Recognition in Discrete Twisted Lattices: A Descriptive Study of Scaling Behavior and Finite-Size Effects" (Jacoby, 2026) makes the formal results accessible to non-specialist readers, inviting interdisciplinary engagement with the epistemological questions they raise. 
+
+- **[Zhu Shijie's Work on Algebra](https://github.com/KatharinaJacoby/Zhu-Shijie)**
+  - A philological critique of translation erasure in classical Chinese algebra, arguing that standard translations obscure the rigorous "dimension" and "critique" in Zhu Shijie's 14th-century masterpiece.
+
+
+### **Ethics & Philosophy**
+
 - **[Contextual Contamination: The Silent Drift of Large Language Models via Stored Conversation Data](https://github.com/KatharinaJacoby/AI_ethics/blob/main/Contextual%20Contamination-%20The%20Silent%20Drift%20of%20Large%20Language%20Models%20via%20Stored%20Conversation%20Data.pdf)**
   - An analysis of how stored conversation data subtly alters model behavior over time.
 - **[The Right to Hesitate](https://github.com/KatharinaJacoby/AI_ethics/blob/main/The%20Right%20to%20Hesitate.pdf)**
   - A philosophical argument for preserving human deliberation in automated decision-making systems.
 - **[From the Discrete Grid to the Continuous Substrate: Recovering Relational Logic and a Different Framework for the Symbol Grounding Problem](https://github.com/KatharinaJacoby/AI_ethics/blob/main/From_the_Discrete_Grid_to_the_Continuous_Substrate.pdf)**
   - A structural critique of the "collapse imperative" in digital computation. Diagnoses the symbol grounding problem as an artifact of the epistemic cut and proposes a framework of "embodiment without arbitrariness" based on continuous substrates and relational logic.*
-- **[Zhu Shijie's Work on Algebra](https://github.com/KatharinaJacoby/Zhu-Shijie)**
-  - A philological critique of translation erasure in classical Chinese algebra, arguing that standard translations obscure the rigorous "dimension" and "critique" in Zhu Shijie's 14th-century masterpiece.
 
 ---
 - ## 🌐 Connect & Collaborate
