@@ -15,7 +15,7 @@ I build software and automation tools, write about AI ethics, and study the gaps
 > *"The future of healthcare isn't about replacing professionals with technology. It's about giving them better tools—built together, for everyone."*
 ---
 
-### **Mathematics and Computation**
+### **Mathematics & Computation**
 
 - **[Pattern recognition in discrete twisted lattices](https://github.com/KatharinaJacoby/discrete-twisted-lattices-patterns)**
   - A Descriptive Study of Scaling Behavior and Finite-Size Effects and how our tools shape the outcome. Repo includes data, code and discussion.
