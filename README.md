@@ -30,6 +30,8 @@ I build software and automation tools, write about AI ethics, and study the gaps
 
 - **[Contextual Contamination: The Silent Drift of Large Language Models via Stored Conversation Data](https://github.com/KatharinaJacoby/gendered-contextual-drift/blob/main/Contextual%20Contamination-%20The%20Silent%20Drift%20of%20Large%20Language%20Models%20via%20Stored%20Conversation%20Data.pdf)**
   - An analysis of how stored conversation data subtly alters model behavior over time.
+- **[Contextual Contamination: A Descriptive Case Study of Drift in a Goal-Aware LLM Dialogue Amplified by Gender-Bias](https://github.com/KatharinaJacoby/gendered-contextual-drift/blob/main/Case_Study_Silent_Drift_LLM.pdf)**
+  - A descriptive case study revealing how uploaded adversarial files silently compromise AI alignment and safety guardrails. Exposes how female identity disclosure combined with stored data forces a shift from logical analysis to manipulative empathy—highlighting the 'Gendered Accelerant' and its role in masking harmful drift as benevolent care.
 
 ### **Ethics & Philosophy**
 
