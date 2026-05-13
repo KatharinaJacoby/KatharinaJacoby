@@ -26,10 +26,13 @@ I build software and automation tools, write about AI ethics, and study the gaps
   - A philological critique of translation erasure in classical Chinese algebra, arguing that standard translations obscure the rigorous "dimension" and "critique" in Zhu Shijie's 14th-century masterpiece.
 
 
+### **AI Safety & Systems**
+
+- **[Contextual Contamination: The Silent Drift of Large Language Models via Stored Conversation Data](https://github.com/KatharinaJacoby/gendered-contextual-drift/blob/main/Contextual%20Contamination-%20The%20Silent%20Drift%20of%20Large%20Language%20Models%20via%20Stored%20Conversation%20Data.pdf)**
+  - An analysis of how stored conversation data subtly alters model behavior over time.
+
 ### **Ethics & Philosophy**
 
-- **[Contextual Contamination: The Silent Drift of Large Language Models via Stored Conversation Data](https://github.com/KatharinaJacoby/AI_ethics/blob/main/Contextual%20Contamination-%20The%20Silent%20Drift%20of%20Large%20Language%20Models%20via%20Stored%20Conversation%20Data.pdf)**
-  - An analysis of how stored conversation data subtly alters model behavior over time.
 - **[The Right to Hesitate](https://github.com/KatharinaJacoby/AI_ethics/blob/main/The%20Right%20to%20Hesitate.pdf)**
   - A philosophical argument for preserving human deliberation in automated decision-making systems.
 - **[From the Discrete Grid to the Continuous Substrate: Recovering Relational Logic and a Different Framework for the Symbol Grounding Problem](https://github.com/KatharinaJacoby/AI_ethics/blob/main/From_the_Discrete_Grid_to_the_Continuous_Substrate.pdf)**
