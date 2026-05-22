@@ -1,6 +1,6 @@
-## Dr. Katharina Jacoby- Emergency Physician and Systems Engineer
-
-I build software and automation tools, write about AI ethics, and study the gaps between discrete and continuous systems—whether in topology, language, or clinical reasoning. I fix things—sometimes with code, sometimes with adrenaline. My work spans **Systems Engineering**, **AI ethics**, **Mathematics and Computational Physics**. Studying how our tools (whether grids, translations, or AI models) actively shape the reality we perceive, often in ways that hide power dynamics or mathematical truths. 
+## Welcome to my GitHub Account
+## About me
+I build open-source software and automation tools, and study the gaps between discrete and continuous systems- whether in topology, language, or clinical reasoning. I am a Physician- I fix things— sometimes with code, sometimes with adrenaline. My work spans **Systems Engineering**, **AI ethics**, **Mathematics and Computational Physics**. Researching on how our tools (whether grids, translations, or AI models) actively shape the reality we perceive, often in ways that hide power dynamics or mathematical truths. 
 
 > **Note on Methodology and Tools**  
 > My work is assisted by Large Language Models (LLMs). They are used to assist with creating texts, formatting, literature search, verification of mathematical derivations, and  code generation. All conceptual frameworks, ethical arguments, and editorial decisions are my own. In fact trying to use a LLM - even under strict instructions- is exhausting. The helpful AI assistant constantly swapping my approach to one which sells or looks good for peer-review has made me questioned my life-choices more than once. It says a lot about todays bias in research. Collaboration with LLM needs constant human intervention to avoid drift.
