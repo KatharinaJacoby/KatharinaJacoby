@@ -1,4 +1,4 @@
-# Dr. Katharina Jacoby — Physician-Engineer & Open Source Developer
+# Dr. Katharina Jacoby — Physician-Systems Engineer
 
 > Building automation tools at the intersection of **Systems Engineering**, **AI Ethics**, and **Computational Physics**.
 ---
