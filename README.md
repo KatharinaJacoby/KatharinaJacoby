@@ -4,16 +4,16 @@
 ---
 ## 🔬 About Me
 
-I am a **physician** who fixes things—sometimes with code, sometimes with adrenaline. My work bridges the gap between **discrete and continuous systems**, whether in **topology**, **language**, or **clinical reasoning**. My work examines how our tools (whether grids, translations, or AI models) actively shape the reality we perceive, often in ways that hide power dynamics- like the systematic erasure of knowledge by colonial power structures- or obscure mathematical truths. You can find my data, code, and ongoing progress on [GitHub](https://github.com/KatharinaJacoby?tab=repositories). My paper are published on [PhilPapers](https://philpeople.org/profiles/katharina-jacoby/publications).
+I am a **physician** who fixes things—sometimes with code, sometimes with adrenaline. My work bridges the gap between **discrete and continuous systems**, whether in **topology**, **language**, or **clinical reasoning**. Using Computational Topology (discrete twisted lattices), AI Epistemology (symbol grounding, contextual contamination), Ethics and Philosophy. I study how our tools—whether computational grids, linguistic translations, or AI models—actively construct the reality we perceive, often obscuring power dynamics and mathematical truths, highlighting systematic erasures of knowledge imposed by colonial structures and the hidden geometries they conceal. You can find my data, code, and ongoing progress on [GitHub](https://github.com/KatharinaJacoby?tab=repositories). My paper are published on [PhilPapers](https://philpeople.org/profiles/katharina-jacoby/publications).
 
 
 ### Core Research Areas
 | Domain | Focus |
 |--------|-------|
+| **Computational Topology** | Discrete twisted lattices, scaling behavior, finite-size effects, and the geometry of digital grids |
+| **AI Epistemology & Ethics** | The "Right to Hesitate," Contextual Contamination, and how AI systems shape perceived reality and hide power dynamics |
+| **Symbol Grounding & Semiotics** | Moving beyond token-based "phantom fluency" toward embodied, relational logic in continuous substrates |
 | **Systems Engineering** | Automation tools, infrastructure, and scalable architecture |
-| **AI Ethics** | How AI systems shape perceived reality and hide power dynamics |
-| **Mathematics & Computational Physics** | Discrete/continuous system interfaces, topology applications |
-| **Clinical Reasoning** | Medical decision-support tools and healthcare automation |
 
 > **Note on Methodology and Tools**  
 > My work is assisted by Large Language Models (LLMs). They are used to assist with creating texts, formatting, literature search, verification of mathematical derivations, and  code generation. All conceptual frameworks, ethical arguments, and editorial decisions are my own. In fact trying to use a LLM - even under strict instructions- is exhausting. The helpful AI assistant constantly swapping my approach to one which sells or looks good for peer-review has made me questioned my life-choices more than once. It says a lot about todays bias in research. Collaboration with LLM needs constant human intervention to avoid drift.
