@@ -1,6 +1,6 @@
 # Dr. Katharina Jacoby — Physician-Systems Engineer
 
-> Building automation tools at the intersection of **Systems Engineering**, **AI Ethics**, and **Computational Physics**.
+> working at the intersection of **Systems Engineering**, **AI Safety & Systems**, **AI Ethics & Philosophy** and **Mathematics & Computation**.
 ---
 ## 🔬 About Me
 
@@ -65,11 +65,12 @@ I fix things—sometimes with code, sometimes with adrenaline. My work bridges t
 - ## 🌐 Connect & Collaborate
 
 *   **Publications:** [PhilPaper](https://philpeople.org/profiles/katharina-jacoby/publications) *(For citations)*
+*   **Dataset Contextual Contamination and the Gendered Accelerant Drift in Large Language Models:** [Zenodo](https://doi.org/10.5281/zenodo.20532103) *(For citations)*
+*   **Dataset A Descriptive Study of Scaling Behavior and Finite-Size Effects-Understanding the Grid, the Glitch, and the Geometry:** [Zenodo](https://doi.org/10.5281/zenodo.20522335) *(For citations)*
 *   **Hugging Face:** [katharina112](https://discuss.huggingface.co/u/katharina112/summary)
-*   **Kaggle:** [kjacoby](https://www.kaggle.com/kjacoby) *(If you enjoy raw data and a messy collection of Jupyter notebooks)*
 *   **Open Source Badges:** [![Holopin Badges](https://holopin.me/katharinajacoby)](https://holopin.io/@katharinajacoby)
 
-**Open to:** Open-source non-profit automation, local/offline tools, and discussions on Ethics/Math/Physics.
+**Feel free to reach out- Happy to discuss:**
 📧 **Contact:** k.jacoby at posteo.de
 
 ---
