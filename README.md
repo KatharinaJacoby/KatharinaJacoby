@@ -1,4 +1,4 @@
-# Dr. Katharina Jacoby — Physician-Systems Engineer
+# Dr. Katharina Jacoby — Physician & Systems Engineer
 
 > working at the intersection of **Systems Engineering**, **AI Safety & Systems**, **AI Ethics & Philosophy** and **Mathematics & Computation**.
 ---
@@ -55,7 +55,8 @@ I fix things—sometimes with code, sometimes with adrenaline. My work bridges t
 ---
 ## 🛠️ Software Projects
 
-*   **Advice-Only Pipeline:** Local, interpretable risk prediction (CatBoost, FastAPI, SQLite). Human-in-the-loop safety.
+* ### [CARE](https://github.com/KatharinaJacoby/ED_Workflow_CARE) "🏆 Winner of the Hackathon of Emergency Medicine at ICEM 2026!"
+  ED Coordination System- an Advice-Only Pipeline:**  Local, interpretable risk prediction (CatBoost, FastAPI, SQLite). Human-in-the-loop safety.
 *   **Heilmittel Assistent:** Offline ICD-10 eligibility checker (Python/PyInstaller). No data storage.
 *   **Medical T5 Mini:** Educational **[LLM Fine-Tuning Debugging Guide](https://github.com/KatharinaJacoby/LLM-Fine-tuning-Debugging-Guide)** A practical guide to diagnosing and fixing common fine-tuning failures, applying clinical diagnostic methods to machine learning.
 
@@ -65,7 +66,7 @@ I fix things—sometimes with code, sometimes with adrenaline. My work bridges t
 - ## 🌐 Connect & Collaborate
 
 *   **Publications:** [PhilPaper](https://philpeople.org/profiles/katharina-jacoby/publications) *(For citations)*
-*   **Dataset Contextual Contamination and the Gendered Accelerant Drift in Large Language Models:** [Zenodo](https://doi.org/10.5281/zenodo.20532103) *(For citations)*
+*   **Dataset Contextual Contamination and the Gendered Accelerant Drift in Large Language Models:** [Zenodo](https://doi.org/10.5281/zenodo.20532103) *(For citations of Datasets)*
 *   **Dataset A Descriptive Study of Scaling Behavior and Finite-Size Effects-Understanding the Grid, the Glitch, and the Geometry:** [Zenodo](https://doi.org/10.5281/zenodo.20522335) *(For citations)*
 *   **Hugging Face:** [katharina112](https://discuss.huggingface.co/u/katharina112/summary)
 *   **Open Source Badges:** [![Holopin Badges](https://holopin.me/katharinajacoby)](https://holopin.io/@katharinajacoby)
