@@ -56,7 +56,7 @@ I fix things—sometimes with code, sometimes with adrenaline. My work bridges t
 ## 🛠️ Software Projects
 
 * ### [CARE](https://github.com/KatharinaJacoby/ED_Workflow_CARE) "🏆 Winner of the Hackathon of Emergency Medicine at ICEM 2026!"
-  ED Coordination System- an Advice-Only Pipeline:**  Local, interpretable risk prediction (CatBoost, FastAPI, SQLite). Human-in-the-loop safety.
+  ED Coordination System- an Advice-Only Pipeline:  Local, interpretable risk prediction (CatBoost, FastAPI, SQLite). Human-in-the-loop safety.
 *   **Heilmittel Assistent:** Offline ICD-10 eligibility checker (Python/PyInstaller). No data storage.
 *   **Medical T5 Mini:** Educational **[LLM Fine-Tuning Debugging Guide](https://github.com/KatharinaJacoby/LLM-Fine-tuning-Debugging-Guide)** A practical guide to diagnosing and fixing common fine-tuning failures, applying clinical diagnostic methods to machine learning.
 
