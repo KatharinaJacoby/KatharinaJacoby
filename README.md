@@ -19,19 +19,6 @@ I fix things—sometimes with code, sometimes with adrenaline. My work bridges t
 > **Note on Methodology and Tools**  
 > My work is assisted by Large Language Models (LLMs). They are used to assist with creating texts, formatting, literature search, verification of mathematical derivations, and  code generation. All conceptual frameworks, ethical arguments, and editorial decisions are my own. In fact trying to use a LLM - even under strict instructions- can be exhausting. The helpful AI assistant constantly swapping my approach to one which sells or looks good for peer-review has made me questioned my life-choices more than once and says a lot about todays bias in research.
 ---
-
-### **Mathematics & Computation**
-
-- **[Pattern recognition in discrete twisted lattices](https://github.com/KatharinaJacoby/discrete-twisted-lattices-patterns)**
-  - A Descriptive Study of Scaling Behavior and Finite-Size Effects and how our tools shape the outcome. Repo includes data, code and discussion.
-
-- **[A Non-Technical Companion Guide: Understanding the Grid, the Glitch, and the Geometry](https://github.com/KatharinaJacoby/discrete-twisted-lattices-patterns](https://github.com/KatharinaJacoby/discrete-twisted-lattices-patterns/blob/main/Non-Tech%20Companion%20Guide%3A%20Understanding%20the%20Grid%2C%20the%20Glitch%2C%20and%20the%20Geometry.md))**
-  - This companion guide to "Pattern Recognition in Discrete Twisted Lattices: A Descriptive Study of Scaling Behavior and Finite-Size Effects" (Jacoby, 2026) makes the formal results accessible to non-specialist readers, inviting interdisciplinary engagement with the epistemological questions they raise. 
-
-- **[Zhu Shijie's Work on Algebra](https://github.com/KatharinaJacoby/Zhu-Shijie)**
-  - A philological critique of translation erasure in classical Chinese algebra, arguing that standard translations obscure the rigorous "dimension" and "critique" in Zhu Shijie's 14th-century masterpiece.
-
-
 ### **AI Safety & Systems**
 
 - **[Contextual Contamination and the Gendered Accelerant- A Controlled Pilot on Pruning, Density, and Semantic Entrapment](https://github.com/KatharinaJacoby/gendered-contextual-drift/tree/main/Pilot_Study)**
@@ -51,6 +38,16 @@ I fix things—sometimes with code, sometimes with adrenaline. My work bridges t
 
 - **[From the Discrete Grid to the Continuous Substrate: Recovering Relational Logic and a Different Framework for the Symbol Grounding Problem](https://github.com/KatharinaJacoby/AI_ethics/blob/main/From_the_Discrete_Grid_to_the_Continuous_Substrate.pdf)**
   - A structural critique of the "collapse imperative" in digital computation. Diagnoses the symbol grounding problem as an artifact of the epistemic cut and proposes a framework of "embodiment without arbitrariness" based on continuous substrates and relational logic.*
+### **Mathematics & Computation**
+
+- **[Pattern recognition in discrete twisted lattices](https://github.com/KatharinaJacoby/discrete-twisted-lattices-patterns)**
+  - A Descriptive Study of Scaling Behavior and Finite-Size Effects and how our tools shape the outcome. Repo includes data, code and discussion.
+
+- **[A Non-Technical Companion Guide: Understanding the Grid, the Glitch, and the Geometry](https://github.com/KatharinaJacoby/discrete-twisted-lattices-patterns](https://github.com/KatharinaJacoby/discrete-twisted-lattices-patterns/blob/main/Non-Tech%20Companion%20Guide%3A%20Understanding%20the%20Grid%2C%20the%20Glitch%2C%20and%20the%20Geometry.md))**
+  - This companion guide to "Pattern Recognition in Discrete Twisted Lattices: A Descriptive Study of Scaling Behavior and Finite-Size Effects" (Jacoby, 2026) makes the formal results accessible to non-specialist readers, inviting interdisciplinary engagement with the epistemological questions they raise. 
+
+- **[Zhu Shijie's Work on Algebra](https://philpapers.org/rec/JACFTF)**
+  - A philological critique of translation erasure in classical Chinese algebra, arguing that standard translations obscure the rigorous "dimension" and "critique" in Zhu Shijie's 14th-century masterpiece.
 
 ---
 ## 🛠️ Software Projects
@@ -62,19 +59,18 @@ I fix things—sometimes with code, sometimes with adrenaline. My work bridges t
 
 > *"The future of healthcare isn't about replacing professionals with technology. It's about giving them better tools—built together, for everyone."*
 ---
+- ## For citations
+* [Publications](https://philpeople.org/profiles/katharina-jacoby/publications) 
+* [Dataset Contextual Contamination and the Gendered Accelerant Drift in Large Language Models](https://doi.org/10.5281/zenodo.20532103) 
+* [Dataset A Descriptive Study of Scaling Behavior and Finite-Size Effects-Understanding the Grid, the Glitch, and the Geometry](https://doi.org/10.5281/zenodo.20522335)
 
-- ## 🌐 Connect & Collaborate
 
-*   **Publications:** [PhilPaper](https://philpeople.org/profiles/katharina-jacoby/publications) *(For citations)*
-*   **Dataset Contextual Contamination and the Gendered Accelerant Drift in Large Language Models:** [Zenodo](https://doi.org/10.5281/zenodo.20532103) *(For citations of Datasets)*
-*   **Dataset A Descriptive Study of Scaling Behavior and Finite-Size Effects-Understanding the Grid, the Glitch, and the Geometry:** [Zenodo](https://doi.org/10.5281/zenodo.20522335) *(For citations)*
-*   **Hugging Face:** [katharina112](https://discuss.huggingface.co/u/katharina112/summary)
+- ## 🌐 Email: k.jacoby at posteo.de
+  
+
 *   **Open Source Badges:** [![Holopin Badges](https://holopin.me/katharinajacoby)](https://holopin.io/@katharinajacoby)
-
-**Feel free to reach out- Happy to discuss:**
-📧 **Contact:** k.jacoby at posteo.de
 
 ---
 
-### ⚠️ AI Training Opt-Out
-This repository is **excluded from all AI training datasets** under [GitHub's DMCA policy](https://docs.github.com/en/site-policy/content-removal-policies/dmca-takedown-policy). Violations will be reported.
+> ⚠️ AI Training Opt-Out
+This repository is **excluded from all AI training datasets** under [GitHub's DMCA policy](https://docs.github.com/en/site-policy/content-removal-policies/dmca-takedown-policy).
