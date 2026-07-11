@@ -4,8 +4,9 @@
 ---
 ## 🔬 About Me
 
-I fix things—sometimes with code, sometimes with adrenaline. My work bridges the gap between **discrete and continuous systems**, whether in **topology**, **language**, or **clinical reasoning**. Using Computational Topology (discrete twisted lattices), AI Epistemology (symbol grounding, contextual contamination), Ethics and Philosophy. I study how our tools—whether computational grids, linguistic translations, or AI models—actively construct the reality we perceive, often obscuring power dynamics and mathematical truths, highlighting systematic erasures of knowledge imposed by colonial structures and the hidden geometries they conceal. You can find my data, code, and ongoing progress on [GitHub](https://github.com/KatharinaJacoby?tab=repositories). My paper are published on [PhilPapers](https://philpeople.org/profiles/katharina-jacoby/publications).
+I fix things—sometimes with code, sometimes with adrenaline. My work bridges the gap between **discrete and continuous systems**, whether in **topology**, **language**, or **clinical reasoning**. Using Computational Topology (discrete twisted lattices), AI Epistemology (symbol grounding, contextual contamination), Ethics and Philosophy. I study how our tools—whether computational grids, linguistic translations, or AI models—actively construct the reality we perceive - and by doing so often obscurs power dynamics. In my work I am highlighting systematic erasures of knowledge imposed by colonial structures and the hidden perspectives they conceal. You can find my data, code, and ongoing progress here on [GitHub](https://github.com/KatharinaJacoby?tab=repositories). I published on [PhilPapers](https://philpeople.org/profiles/katharina-jacoby/publications). You find my Datasets on [Zenodo](https://doi.org/10.5281/zenodo.20532103).
 
+### 🌐 Email: k.jacoby at posteo.de
 
 ### Core Research Areas
 | Domain | Focus |
@@ -65,7 +66,6 @@ I fix things—sometimes with code, sometimes with adrenaline. My work bridges t
 * [Dataset A Descriptive Study of Scaling Behavior and Finite-Size Effects-Understanding the Grid, the Glitch, and the Geometry](https://doi.org/10.5281/zenodo.20522335)
 
 
-- ## 🌐 Email: k.jacoby at posteo.de
   
 
 *   **Open Source Badges:** [![Holopin Badges](https://holopin.me/katharinajacoby)](https://holopin.io/@katharinajacoby)
