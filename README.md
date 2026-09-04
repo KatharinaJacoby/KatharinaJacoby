@@ -1,10 +1,12 @@
-# Dr. Katharina Jacoby — Physician & Systems Engineer
+# Welcome to my Read me
 
-> working at the intersection of **Systems Engineering**, **AI Safety & Systems**, **AI Ethics & Philosophy** and **Mathematics & Computation**.
+Dr. Katharina Jacoby
+
+> working at the intersection of Mathematics & Computation, AI Safety, AI Epistemology & Ethics — I build, audit, and debug the systems I examine.
 ---
 ## 🔬 About Me
 
-I fix things—sometimes with code, sometimes with adrenaline. My work bridges the gap between **discrete and continuous systems**, whether in **topology**, **language**, or **clinical reasoning**. Using Computational Topology (discrete twisted lattices), AI Epistemology (symbol grounding, contextual contamination), Ethics and Philosophy. I study how our tools—whether computational grids, linguistic translations, or AI models—actively construct the reality we perceive - and by doing so often obscures power dynamics. In my work I am highlighting systematic erasures of knowledge imposed by colonial structures and the hidden perspectives they conceal. You can find my data, code, and ongoing progress here on [GitHub](https://github.com/KatharinaJacoby?tab=repositories). I published on [PhilPapers](https://philpeople.org/profiles/katharina-jacoby/publications). You find my Datasets on [Zenodo](https://doi.org/10.5281/zenodo.20532103).
+I fix things — sometimes with code, sometimes with adrenaline. My work bridges discrete and continuous systems, whether in topology, language, or clinical reasoning. Using computational topology, AI epistemology, and philosophy, I study how our tools — computational grids, linguistic translations, AI models — actively construct the reality we perceive, and in doing so obscure power dynamics. My work highlights systematic erasures of knowledge imposed by colonial structures and the hidden perspectives they conceal. You can find my data, code, and ongoing progress here on [GitHub](https://github.com/KatharinaJacoby?tab=repositories). I publish on [PhilPapers](https://philpeople.org/profiles/katharina-jacoby/publications). My datasets are on [Zenodo](https://doi.org/10.5281/zenodo.20532103).
 
 ### 🌐 Email: k.jacoby at posteo.de
 
@@ -12,10 +14,10 @@ I fix things—sometimes with code, sometimes with adrenaline. My work bridges t
 | Domain | Focus |
 |--------|-------|
 | **Computational Topology** | Discrete twisted lattices, scaling behavior, finite-size effects, and the geometry of digital grids |
-| **AI Safety** | Structural vulnerabilities, Contextual Contamination, LLM Drift and the Gendered Accelerant |
+| **AI Safety** | Structural vulnerabilities, contextual contamination, LLM drift and the gendered accelerant |
 | **AI Epistemology & Ethics** | The "Right to Hesitate," and how AI systems shape perceived reality and hide power dynamics |
 | **Symbol Grounding & Semiotics** | Moving beyond token-based "phantom fluency" toward embodied, relational logic in continuous substrates |
-| **Systems Engineering** | Automation tools, infrastructure, and scalable architecture |
+| **Systems** | Build, audit, and debug systems |
 
 > **Note on Methodology and Tools**  
 > My work is assisted by Large Language Models (LLMs). They are used to assist with creating texts, formatting, literature search, verification of mathematical derivations, and  code generation. All conceptual frameworks, ethical arguments, and editorial decisions are my own. In fact trying to use a LLM - even under strict instructions- can be exhausting. The helpful AI assistant constantly swapping my approach to one which sells or looks good for peer-review has made me questioned my life-choices more than once and says a lot about todays bias in research.
