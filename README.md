@@ -1,12 +1,8 @@
 # Welcome to my Read me
-
-Dr. Katharina Jacoby
-
-> working at the intersection of Mathematics & Computation, AI Safety, AI Epistemology & Ethics — I build, audit, and debug the systems I examine.
 ---
 ## 🔬 About Me
 
-I fix things — sometimes with code, sometimes with adrenaline. My work bridges discrete and continuous systems, whether in topology, language, or clinical reasoning. Using computational topology, AI epistemology, and philosophy, I study how our tools — computational grids, linguistic translations, AI models — actively construct the reality we perceive, and in doing so obscure power dynamics. My work highlights systematic erasures of knowledge imposed by colonial structures and the hidden perspectives they conceal. You can find my data, code, and ongoing progress here on [GitHub](https://github.com/KatharinaJacoby?tab=repositories). I publish on [PhilPapers](https://philpeople.org/profiles/katharina-jacoby/publications). My datasets are on [Zenodo](https://doi.org/10.5281/zenodo.20532103).
+I fix things — sometimes with code, sometimes with adrenaline. My work bridges discrete and continuous systems, whether in topology, language, or clinical reasoning. Using computational topology, AI epistemology, and philosophy, I study how our tools — computational grids, linguistic translations, AI models — actively construct the reality we perceive, and in doing so obscure power dynamics. In my work I try to highlight systematic erasures of knowledge imposed by colonial structures and the hidden perspectives they conceal. You can find my data, code, and ongoing progress here on [GitHub](https://github.com/KatharinaJacoby?tab=repositories). I publish on [PhilPapers](https://philpeople.org/profiles/katharina-jacoby/publications) and my datasets are on [Zenodo](https://doi.org/10.5281/zenodo.20532103).
 
 ### 🌐 Email: k.jacoby at posteo.de
 
